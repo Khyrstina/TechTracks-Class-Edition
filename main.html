@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tech Tracks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Playlist Tracker</h1>
+<div id="song-form">
+    <label for="song-name">Song Name:</label>
+    <input type="text" id="song-name" placeholder="Enter song name">
+
+    <label for="artist">Artist:</label>
+    <input type="text" id="artist" placeholder="Enter artist">
+
+    <label for="genre">Genre:</label>
+    <select id="genre">
+        <option value="rock">Rock</option>
+        <option value="pop">Pop</option>
+        <option value="hip-hop">Hip-Hop</option>
+        <option value="country">Country</option>
+        <option value="edm">EDM</option>
+        <option value="indie">Indie</option>
+        <option value="alternative">Alternative</option>
+        <option value="classical">Classical</option>
+    </select>
+    <button id="song-button">Add Song</button>
+</div>
+<div id="edit-form" style="display: none;">
+    <label for="edit-song-name">Song Name:</label>
+    <input type="text" id="edit-song-name" placeholder="Enter song name">
+    <label for="edit-artist">Artist:</label>
+    <input type="text" id="edit-artist" placeholder="Enter artist">
+    <label for="edit-genre">Genre:</label>
+    <select id="edit-genre">
+        <option value="Alternative">Alternative</option>
+        <option value="Classical">Classical</option>
+        <option value="Country">Country</option>
+        <option value="EDM">EDM</option>
+        <option value="Hip-Hop">Hip-Hop</option>
+        <option value="Indie">Indie</option>
+        <option value="Pop">Pop</option>
+        <option value="Rock">Rock</option>
+    </select>
+    <button id="update-song-button">Update Song</button>
+</div>
+<button id="organize-playlist-button">Organize Playlist</button>
+<ul id="songs-list"></ul>
+<script type="module" src="main.js"></script>
+</body>
+</html>

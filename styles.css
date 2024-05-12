@@ -1,0 +1,96 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #1db954;
+}
+
+#song-form label,
+#song-form input,
+#song-form select,
+#edit-form label,
+#edit-form input,
+#edit-form select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#song-form button,
+#edit-form button {
+    margin-top: 10px;
+}
+
+#songs-list {
+    margin-top: 20px;
+}
+
+#songs-list li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+#song-form {
+    border: 2px solid #1db954;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#edit-form {
+    border: 2px solid #ff9800; /* Orange border because... construction? */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#songs-list {
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+/* Begin button styling */
+button {
+    background-color: #1db954;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #1ed760;
+    color: white;
+    transform: scale(1.1);
+}
+
+.delete-button {
+    background-color: #f44336;
+    margin-right: 10px;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.edit-button {
+    background-color: #2196f3;
+    margin: 0 10px;
+}
+
+.edit-button:hover {
+    background-color: #1976d2;
+}
