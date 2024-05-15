@@ -3,5 +3,6 @@ export class Song {
         this.name = name;
         this.artist = artist;
         this.genre = genre;
+
     }
 }
